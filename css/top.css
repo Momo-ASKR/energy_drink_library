@@ -83,9 +83,21 @@ table {
     background-color: greenyellow;
 }
 
+.module--content.minmindaha {
+    background-color: white;
+}
+
 .module--h1-title {
     font-size: 105px;
     margin: 120px 0 100px 0;
+    line-height: 1.4;
+    text-align: left;
+    font-family: 'futura-pt',sans-serif;
+    font-weight: 600;
+}
+.module--h2-title {
+    font-size: 70px;
+    margin: 120px 0 0px 0;
     line-height: 1.4;
     text-align: left;
     font-family: 'futura-pt',sans-serif;
@@ -101,6 +113,7 @@ table {
     padding-bottom: 80px;
 }
 
+
 .module--table-normal {
     border-top: 2px solid #121211;
     border-bottom: 2px solid #121211;
@@ -114,4 +127,12 @@ table {
 
 .module--table-normal tr {
     border-top: 1px solid rgba(255,255,255,0.07);
+}
+.module--content.redbull{
+	background-color: blue;
+}
+.module--text.bottom-3x {
+    padding-bottom: 80px;
+    padding-left: 10px;
+
 }
