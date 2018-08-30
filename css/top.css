@@ -57,6 +57,10 @@ body {
     background-color: greenyellow;
 }
 
+.module--content.minmindaha {
+    background-color: white;
+}
+
 .module--h1-title {
     font-size: 105px;
     margin: 120px 0 100px 0;
