@@ -164,13 +164,13 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     display: flex;
 }
 
-#linenap .drink-profile {
+.linenap .drink-profile {
     width: 40%;
     flex: 1;
     position: relative;
 }
 
-#linenap .drink-img {
+.linenap .drink-img {
     padding-top: 150px;
     padding-left: 80px;
 }
