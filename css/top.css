@@ -57,6 +57,10 @@ body {
     background-color: greenyellow;
 }
 
+.module--content.orange {
+    background-color: darkorange;
+}
+
 .module--h1-title {
     font-size: 105px;
     margin: 120px 0 100px 0;
@@ -73,8 +77,4 @@ body {
 
 .module--text.bottom-2x {
     padding-bottom: 80px;
-}
-
-.module--content.redbull{
-	background-color: blue;
 }
