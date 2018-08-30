@@ -69,6 +69,14 @@ body {
     font-family: 'futura-pt',sans-serif;
     font-weight: 600;
 }
+.module--h2-title {
+    font-size: 70px;
+    margin: 120px 0 0px 0;
+    line-height: 1.4;
+    text-align: left;
+    font-family: 'futura-pt',sans-serif;
+    font-weight: 600;
+}
 
 .module--text {
     font-size: 16px;
@@ -77,4 +85,12 @@ body {
 
 .module--text.bottom-2x {
     padding-bottom: 80px;
+}
+
+.module--content.redbull{
+	background-color: blue;
+
+.module--text.bottom-3x {
+    padding-bottom: 80px;
+    padding-left: 10px;
 }
