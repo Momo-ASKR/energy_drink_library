@@ -87,6 +87,10 @@ table {
     background-color: white;
 }
 
+.module--content.orange {
+    background-color: darkorange;
+}
+
 .module--h1-title {
     font-size: 105px;
     margin: 120px 0 100px 0;
@@ -129,7 +133,7 @@ table {
     border-top: 1px solid rgba(255,255,255,0.07);
 }
 .module--content.redbull{
-	background-color: blue;
+	background-color: skyblue;
 }
 .module--text.bottom-3x {
     padding-bottom: 80px;
