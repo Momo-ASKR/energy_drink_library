@@ -106,6 +106,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     background-color: white;
 }
 
+.module--content.orange {
+    background-color: darkorange;
+}
+
 .module--h1-title {
     font-size: 105px;
     margin: 120px 0 100px 0;
@@ -148,7 +152,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     border-top: 1px solid rgba(255,255,255,0.07);
 }
 .module--content.redbull{
-	background-color: blue;
+	background-color: skyblue;
 }
 
 .module--text.bottom-3x {
