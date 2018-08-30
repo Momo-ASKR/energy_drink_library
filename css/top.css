@@ -12,19 +12,45 @@ body {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+nav ul {
+    list-style: none;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
 /* --------------------------------------------------*/
 /* Hero
 /* --------------------------------------------------*/
 .header {
-/*	position: relative;*/
-/*	height: calc(100vh - 58px);*/
 	height: 70px;
     position: fixed;
     z-index: 9999;
     width: 100%;
-/*    overflow: hidden;*/
     background: black;
     color: aliceblue;
+}
+
+#header .logo {
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    left: 25px;
+    top: -10px;
+}
+
+#header .gnav {
+    text-align: left;
+    padding: 12px 0 0 380px;
+}
+
+#header .gnav > li {
+    display: inline-block;
+    margin-right: 8px;
 }
 
 
@@ -73,4 +99,19 @@ body {
 
 .module--text.bottom-2x {
     padding-bottom: 80px;
+}
+
+.module--table-normal {
+    border-top: 2px solid #121211;
+    border-bottom: 2px solid #121211;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.module--table-normal tr:first-child {
+    border-top: none;
+}
+
+.module--table-normal tr {
+    border-top: 1px solid rgba(255,255,255,0.07);
 }
